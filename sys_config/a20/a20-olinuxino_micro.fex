@@ -99,6 +99,27 @@ dram_emr3 = 0x0
 mali_used = 1
 mali_clkdiv = 1
 
+[gmac_para]
+gmac_used = 1
+gmac_rxd3 = port:PA00<5><default><3><default>
+gmac_rxd2 = port:PA01<5><default><3><default>
+gmac_rxd1 = port:PA02<5><default><3><default>
+gmac_rxd0 = port:PA03<5><default><3><default>
+gmac_txd3 = port:PA04<5><default><3><default>
+gmac_txd2 = port:PA05<5><default><3><default>
+gmac_txd1 = port:PA06<5><default><3><default>
+gmac_txd0 = port:PA07<5><default><3><default>
+gmac_rxclk = port:PA08<5><default><3><default>
+gmac_rxerr = port:PA09<0><default><3><default>
+gmac_rxctl = port:PA10<5><default><3><default>
+gmac_mdc = port:PA11<5><default><3><default>
+gmac_mdio = port:PA12<5><default><3><default>
+gmac_txctl = port:PA13<5><default><3><default>
+gmac_txclk = port:PA14<0><default><3><default>
+gmac_txck = port:PA15<5><default><3><default>
+gmac_clkin = port:PA16<5><default><3><default>
+gmac_txerr = port:PA17<0><default><3><default>
+
 [emac_para]
 emac_used = 1
 emac_rxd3 = port:PA00<2><default><default><default>
