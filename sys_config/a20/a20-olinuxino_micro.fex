@@ -485,8 +485,8 @@ hdmi_used = 1
 [camera_list_para]
 camera_list_para_used = 0
 ov7670 = 0
-gc0308 = 1
-gt2005 = 0
+gc0308 = 0
+gt2005 = 1
 hi704 = 0
 sp0838 = 0
 mt9m112 = 0
