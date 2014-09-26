@@ -1,6 +1,6 @@
 [product]
 version = "100"
-machine = "A20-OLinuXino-MICRO"
+machine = "A20-SOM-PAYDIA"
 
 [platform]
 eraseflag = 0
