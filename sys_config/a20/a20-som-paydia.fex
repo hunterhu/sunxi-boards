@@ -186,7 +186,7 @@ uart_rts = port:PI16<3><1><default><default>
 uart_cts = port:PI17<3><1><default><default>
 
 [uart_para3]
-uart_used = 0
+uart_used = 1
 uart_port = 3
 uart_type = 4
 uart_tx = port:PG06<4><1><default><default>
