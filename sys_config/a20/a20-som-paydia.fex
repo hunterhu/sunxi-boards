@@ -636,7 +636,7 @@ sdc_regulator = "none"
 
 [mmc3_para]
 sdc_used = 1
-sdc_detmode = 1
+sdc_detmode = 3
 sdc_buswidth = 4
 sdc_cmd = port:PI04<2><1><2><default>
 sdc_clk = port:PI05<2><1><2><default>
@@ -644,7 +644,7 @@ sdc_d0 = port:PI06<2><1><2><default>
 sdc_d1 = port:PI07<2><1><2><default>
 sdc_d2 = port:PI08<2><1><2><default>
 sdc_d3 = port:PI09<2><1><2><default>
-sdc_det = port:PH00<0><1><default><default>
+sdc_det =
 sdc_use_wp = 0
 sdc_wp =
 sdc_isio = 1
