@@ -186,13 +186,13 @@ uart_rts = port:PI16<3><1><default><default>
 uart_cts = port:PI17<3><1><default><default>
 
 [uart_para3]
-uart_used = 0
+uart_used = 1
 uart_port = 3
 uart_type = 4
-uart_tx = port:PH00<4><1><default><default>
-uart_rx = port:PH01<4><1><default><default>
-uart_rts = port:PH02<4><1><default><default>
-uart_cts = port:PH03<4><1><default><default>
+uart_tx = port:PG06<4><1><default><default>
+uart_rx = port:PG07<4><1><default><default>
+uart_rts = port:PG08<4><1><default><default>
+uart_cts = port:PG09<4><1><default><default>
 
 [uart_para4]
 uart_used = 0
@@ -636,7 +636,7 @@ sdc_regulator = "none"
 
 [mmc3_para]
 sdc_used = 1
-sdc_detmode = 1
+sdc_detmode = 3
 sdc_buswidth = 4
 sdc_cmd = port:PI04<2><1><2><default>
 sdc_clk = port:PI05<2><1><2><default>
@@ -644,7 +644,7 @@ sdc_d0 = port:PI06<2><1><2><default>
 sdc_d1 = port:PI07<2><1><2><default>
 sdc_d2 = port:PI08<2><1><2><default>
 sdc_d3 = port:PI09<2><1><2><default>
-sdc_det = port:PH00<0><1><default><default>
+sdc_det =
 sdc_use_wp = 0
 sdc_wp =
 sdc_isio = 1
