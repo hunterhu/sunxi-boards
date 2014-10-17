@@ -266,6 +266,7 @@ rtp_sensitive_level = 0xf
 rtp_exchange_x_y_flag = 0
 
 [ctp_para]
+ctp_twi_id = 1
 ctp1_used = 0
 ctp1_name = "ft5x-ts"
 ctp1_twi_addr = 56
@@ -281,7 +282,8 @@ ctp_revert_y_flag = 0
 ctp_exchange_x_y_flag = 0
 ctp_havekey = 1
 ctp_int_port = port:PH10<6><default><default><default>
-ctp_wakeup = port:PB13<1><default><default><1>
+ctp_wakeup = port:PH11<1><default><default><1>
+ctp_reset = port:PH11<1><default><default><1>
 
 [tkey_para]
 tkey_used = 0
