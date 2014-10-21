@@ -266,14 +266,10 @@ rtp_sensitive_level = 0xf
 rtp_exchange_x_y_flag = 0
 
 [ctp_para]
-ctp_twi_id = 1
-ctp1_used = 0
-ctp1_name = "ft5x-ts"
-ctp1_twi_addr = 56
-ctp2_used = 1
-ctp2_name = "ssd253x-ts"
-ctp2_twi_addr = 72
-ctp2_ssd_type = 4302
+ctp_twi_id = 2
+ctp_used = 1
+ctp_name = "ft5x_ts"
+ctp_twi_addr = 56
 cpt_screen_rotate = 0
 ctp_screen_max_x = 480
 ctp_screen_max_y = 272
@@ -282,7 +278,6 @@ ctp_revert_y_flag = 0
 ctp_exchange_x_y_flag = 0
 ctp_havekey = 1
 ctp_int_port = port:PH10<6><default><default><default>
-ctp_wakeup = port:PH11<1><default><default><1>
 ctp_reset = port:PH11<1><default><default><1>
 
 [tkey_para]
