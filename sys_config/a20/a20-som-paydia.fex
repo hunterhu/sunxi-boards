@@ -156,6 +156,11 @@ twi2_used = 1
 twi2_scl = port:PB20<2><default><default><default>
 twi2_sda = port:PB21<2><default><default><default>
 
+[twi3_para]
+twi3_used = 1
+twi3_scl = port:PI00<3><default><default><default>
+twi3_sda = port:PI01<3><default><default><default>
+
 [uart_para0]
 uart_used = 1
 uart_port = 0
